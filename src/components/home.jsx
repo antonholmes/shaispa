@@ -1,14 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
-import componentsStyle from './styling/home.jsx'
-import Header from './styling/header.jsx'
-import Footer from './styling/footer.jsx'
-import GridContainer from './styling/gridContainer.jsx'
-import GridItem from './styling/gridItem.jsx'
-import Button from './styling/button.jsx'
-import Parallax from './styling/parallax.jsx'
-import HeaderLinks from './styling/headerLinks.jsx'
+import componentsStyle from './views/styling/home.jsx'
+import Header from './views/header.jsx'
+import Footer from './views/footer.jsx'
+import GridContainer from './views/gridContainer.jsx'
+import GridItem from './views/gridItem.jsx'
+import Button from './views/button.jsx'
+import Parallax from './views/parallax.jsx'
+import HeaderLinks from './views/headerLinks.jsx'
 
 class Home extends React.Component {
   render() {

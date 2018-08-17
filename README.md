@@ -23,7 +23,7 @@ For the back-end, Shai Lagarde | Love Chic :tm: was built using the following:
 For the front-end, modular components were built and styled using the following:
 
 - :classical_building: Javascript Library: React
-- :clipboard:Cascading Style Sheets: Material Kit
+- :clipboard:Cascading Style Sheets: Material UI
 
 # :satellite: Deployment
 
