@@ -4,11 +4,11 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import componentsStyle from '../assets/jss/home.jsx'
 import Header from './styling/header.jsx'
 import Footer from './styling/footer.jsx'
-import GridContainer from './styling/gridcontainer.jsx'
-import GridItem from './styling/griditem.jsx'
+import GridContainer from './styling/gridContainer.jsx'
+import GridItem from './styling/gridItem.jsx'
 import Button from './styling/button.jsx'
-import Parallax from '/styling/parallax.jsx'
-import HeaderLinks from '/styling/headerlinks.jsx'
+import Parallax from './styling/parallax.jsx'
+import HeaderLinks from './styling/headerLinks.jsx'
 
 class Home extends React.Component {
   render() {
@@ -47,6 +47,7 @@ class Home extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
+        <Footer />
       </div>
     )
   }

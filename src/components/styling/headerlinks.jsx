@@ -4,11 +4,9 @@ import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
-import ToolTip from '@material-ui/core/Tooltip'
-import {Apps, CloudDownload} from '@material-ui/icons'
-import CustomDropDown from './customdropdown.jsx'
+import {CloudDownload} from '@material-ui/icons'
 import Button from './button.jsx'
-import headerLinksStyle from 'assets/jss/styling/material-kit-react.jsx'
+import headerLinksStyle from '../../assets/jss/styling/headerLinksStyle'
 import Tooltip from '@material-ui/core/Tooltip'
 
 function HeaderLinks({...props}) {
@@ -16,27 +14,9 @@ function HeaderLinks({...props}) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropDown
-          noLiPadding
-          buttonText="Links"
-          buttonProps={{
-            className: classes.navLink,
-            color: 'transparent'
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Home
-            </Link>,
-            <a
-              href="https://shaitest.herokuapp.com"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Deployed
-            </a>
-          ]}
-        />
+        <Link to="/" className={classes.dropdownLink}>
+          Home
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
