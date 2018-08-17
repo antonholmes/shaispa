@@ -51,7 +51,7 @@ function Footer({...props}) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getFullYear()} ,
+          &copy; {new Date().getFullYear()} ,
           <Favorite className={classes.icon} /> by{' '}
           <a href="https://lovechic.ph" className={aClasses} target="_blank">
             Shai Lagarde
