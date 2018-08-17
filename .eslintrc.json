@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["fullstack", "prettier", "prettier/react"],
+  "extends": ["react-app", "fullstack", "prettier", "prettier/react"],
   "rules": {
     "semi": 0
   }
