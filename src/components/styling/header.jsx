@@ -9,7 +9,7 @@ import Button from '@material-ui/core/Button'
 import Hidden from '@material-ui/core/Hidden'
 import Drawer from '@material-ui/core/Drawer'
 import Menu from '@material-ui/icons/Menu'
-import headerStyle from '../../assets/jss/styling/headerStyle'
+import headerStyle from './headerStyle.jsx'
 
 class Header extends React.Component {
   constructor(props) {

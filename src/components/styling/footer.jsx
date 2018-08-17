@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import {List, ListItem, withStyles} from '@material-ui/core'
 import Favorite from '@material-ui/icons/Favorite'
-import footerStyle from '../../assets/jss/styling/footerStyle'
+import footerStyle from './footerStyle.jsx'
 
 function Footer({...props}) {
   const {classes, whiteFont} = props

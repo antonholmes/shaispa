@@ -6,7 +6,7 @@ import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import {CloudDownload} from '@material-ui/icons'
 import Button from './button.jsx'
-import headerLinksStyle from '../../assets/jss/styling/headerLinksStyle'
+import headerLinksStyle from './headerLinksStyle.jsx'
 import Tooltip from '@material-ui/core/Tooltip'
 
 function HeaderLinks({...props}) {

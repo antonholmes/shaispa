@@ -10,7 +10,7 @@ import Paper from '@material-ui/core/Paper'
 import Grow from '@material-ui/core/Grow'
 import Divider from '@material-ui/core/Divider'
 import Button from './button'
-import customDropdownStyle from '../../assets/jss/styling/customDropdownStyle.jsx'
+import customDropdownStyle from './customDropdownStyle.jsx'
 
 class CustomDropdown extends React.Component {
   constructor(props) {
