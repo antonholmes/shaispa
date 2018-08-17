@@ -1,6 +1,8 @@
 import {container, primaryColor} from './material-kit-react'
 
-const footerStyle = {
+import tooltip from './tooltipsStyle.jsx'
+
+const footerStyle = theme => ({
   block: {
     color: 'inherit',
     padding: '0.9375rem',
@@ -44,6 +46,29 @@ const footerStyle = {
     padding: '0',
     marginTop: '0'
   },
+  listItem: {
+    float: 'left',
+    color: 'inherit',
+    position: 'relative',
+    display: 'block',
+    width: 'auto',
+    margin: '0',
+    padding: '0',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      '&:after': {
+        width: 'calc(100% - 30px)',
+        content: '""',
+        display: 'block',
+        height: '1px',
+        marginLeft: '15px',
+        backgroundColor: '#e5e5e5'
+      }
+    }
+  },
+  listItemText: {
+    padding: '0 !important'
+  },
   inlineBlock: {
     display: 'inline-block',
     padding: '0px',
@@ -54,6 +79,11 @@ const footerStyle = {
     height: '18px',
     position: 'relative',
     top: '3px'
+  },
+  ...tooltip,
+  marginRight5: {
+    marginRight: '3px'
   }
-}
+})
+
 export default footerStyle

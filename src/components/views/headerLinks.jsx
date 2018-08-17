@@ -28,57 +28,6 @@ function HeaderLinks({...props}) {
           <CloudDownload className={classes.icons} /> Download
         </Button>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow me on Twitter"
-          placement={window.innerWidth > 959 ? 'top' : 'left'}
-          classes={{tooltip: classes.tooltip}}
-        >
-          <Button
-            href="https://twitter.com/shailagarde"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + ' fab fa-twitter'} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow me on Facebook"
-          placement={window.innerWidth > 959 ? 'top' : 'left'}
-          classes={{tooltip: classes.tooltip}}
-        >
-          <Button
-            href="https://facebook.com/lovechicph"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + ' fab fa-facebook'} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow me on Instagram"
-          placement={window.innerWidth > 959 ? 'top' : 'left'}
-          classes={{tooltip: classes.tooltip}}
-        >
-          <Button
-            href="https://instagram.com/shailagarde"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + ' fab fa-instagram'} />
-          </Button>
-        </Tooltip>
-      </ListItem>
     </List>
   )
 }
