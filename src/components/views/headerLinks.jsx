@@ -4,29 +4,36 @@ import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
-import {CloudDownload} from '@material-ui/icons'
-import Button from '../views/button'
 import headerLinksStyle from './styling/headerLinksStyle.jsx'
-import Tooltip from '@material-ui/core/Tooltip'
 
 function HeaderLinks({...props}) {
   const {classes} = props
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Link to="/" className={classes.dropdownLink}>
-          Home
+        <Link to="/about" className={classes.dropdownLink}>
+          About
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://github.com/antonholmes/shaispa"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <CloudDownload className={classes.icons} /> Download
-        </Button>
+        <Link to="/people" className={classes.dropdownLink}>
+          People
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link to="/places" className={classes.dropdownLink}>
+          Places
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link to="/fashion" className={classes.dropdownLink}>
+          Fashion
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link to="/beauty" className={classes.dropdownLink}>
+          Beauty
+        </Link>
       </ListItem>
     </List>
   )

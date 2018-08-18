@@ -1,6 +1,6 @@
 # [Shai Lagarde](https://shailagarde.com/)
 
-_Shai Lagarde's newest portal!_
+_Shai Lagarde's Online Portfolio!_
 
 # 📺 Motivation
 
@@ -14,7 +14,7 @@ Love Chic was hosted on Tumblr and Wordpress before, but the vision has never tr
 
 # :building_construction: Built With
 
-For the back-end, Shai Lagarde | Love Chic :tm: was built using the following:
+For the back-end, Shai Lagarde's Online Portfolio was built using the following:
 
 - :book: Language: JavaScript
 - :running: Runtime Environment: Node.js - Express.js
@@ -27,4 +27,4 @@ For the front-end, modular components were built and styled using the following:
 
 # :satellite: Deployment
 
-Shai Lagarde | Love Chic :tm: was deployed using Heroku, and is accessible through: https://shailagarde.com
+Shai Lagarde's Online Portfolio was deployed using Heroku, and is accessible through: https://shailagarde.herokuapp.com

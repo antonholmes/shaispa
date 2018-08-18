@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
-import componentsStyle from './views/styling/home.jsx'
+import componentsStyle from './views/styling/componentsStyle.jsx'
 import Header from './views/header.jsx'
 import Footer from './views/footer.jsx'
 import GridContainer from './views/gridContainer.jsx'
@@ -9,6 +9,7 @@ import GridItem from './views/gridItem.jsx'
 import Button from './views/button.jsx'
 import Parallax from './views/parallax.jsx'
 import HeaderLinks from './views/headerLinks.jsx'
+import About from './about'
 
 class Home extends React.Component {
   render() {
@@ -26,7 +27,7 @@ class Home extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require('../assets/img/shai1.jpg')}>
+        <Parallax image={require('../assets/img/landing-bg.jpg')}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
@@ -40,14 +41,17 @@ class Home extends React.Component {
               <GridItem md={12} className={classes.textCenter}>
                 <Link to="about" className={classes.link}>
                   <Button color="primary" size="lg" simple>
-                    Read More
+                    About Me
                   </Button>
                 </Link>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
-        <Footer />
+        <div>
+          <About />
+          <Footer />
+        </div>
       </div>
     )
   }
