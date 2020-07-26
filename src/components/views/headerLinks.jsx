@@ -17,22 +17,22 @@ function HeaderLinks({...props}) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/people" className={classes.dropdownLink}>
-          People
+          Journalism
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/places" className={classes.dropdownLink}>
-          Places
+          Lifestyle
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/fashion" className={classes.dropdownLink}>
-          Fashion
+          Mental Health
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/beauty" className={classes.dropdownLink}>
-          Beauty
+          Contact
         </Link>
       </ListItem>
     </List>
