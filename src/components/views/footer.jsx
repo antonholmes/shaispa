@@ -46,7 +46,7 @@ function Footer({...props}) {
                 classes={{tooltip: classes.tooltip}}
               >
                 <Button
-                  href="https://facebook.com/lovechicph"
+                  href="https://facebook.com/shailagarde"
                   target="_blank"
                   color="transparent"
                   className={classes.navLink}
@@ -89,10 +89,7 @@ function Footer({...props}) {
         </div>
         <div className={classes.right}>
           &copy; {new Date().getFullYear()} ,
-          <Favorite className={classes.icon} /> by{' '}
-          <a href="https://lovechic.ph" className={aClasses} target="_blank">
-            Shai Lagarde
-          </a>
+          <Favorite className={classes.icon} /> by Shai Lagarde
         </div>
       </div>
     </footer>

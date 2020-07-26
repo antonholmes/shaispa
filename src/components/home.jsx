@@ -10,6 +10,7 @@ import Button from './views/button.jsx'
 import Parallax from './views/parallax.jsx'
 import HeaderLinks from './views/headerLinks.jsx'
 import About from './about'
+import Journalism from './journalism'
 
 class Home extends React.Component {
   render() {
@@ -34,22 +35,23 @@ class Home extends React.Component {
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Shai Lagarde</h1>
                   <h3 className={classes.subtitle}>
-                    Lifestyle Journalist, Writer, Producer, Youth Counselor
+                    Journalist, Writer, Producer, Youth Counselor
                   </h3>
                 </div>
               </GridItem>
               <GridItem md={12} className={classes.textCenter}>
-                <Link to="about" className={classes.link}>
-                  <Button color="primary" size="lg" simple>
-                    About Me
-                  </Button>
-                </Link>
+                {/* <Link to="about" className={classes.link}> */}
+                <Button href="/about" color="primary" size="lg" simple>
+                  About Me
+                </Button>
+                {/* </Link> */}
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
         <div>
           <About />
+          <Journalism />
           <Footer />
         </div>
       </div>

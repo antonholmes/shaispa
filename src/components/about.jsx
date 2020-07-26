@@ -19,12 +19,15 @@ class About extends React.Component {
           style={{backgroundImage: 'url(' + image + ')'}}
         >
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <div className={classes.brand}>
-                <h1>Shai Lagarde</h1>
-                <h3 className={classes.subtitle}>
-                  Lifestyle Journalist, Writer, Producer, Youth Counselor
-                </h3>
+            <GridItem>
+              <div className={classes.container}>
+                <h1>About Shai</h1>
+                <h2 className={classes.subtitle}>
+                  Reporter, Stand for Truth, GMA News and Public Affairs
+                </h2>
+                <h2 className={classes.subtitle}>
+                  Freelance Writer, Producer, Editor, Stylist
+                </h2>
               </div>
             </GridItem>
             <GridItem md={12} className={classes.textCenter}>
