@@ -7,7 +7,7 @@ import GridContainer from './views/gridContainer.jsx'
 import GridItem from './views/gridItem.jsx'
 import pageStyle from './views/styling/pageStyle'
 import Button from './views/button.jsx'
-import image from '../assets/img/bg3.jpg'
+import image from '../assets/img/shai2.jpg'
 
 class Journalism extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Journalism extends React.Component {
           <GridContainer>
             <GridItem>
               <div className={classes.container}>
-                <h1>Watch my reports:</h1>
+                <h1 className={classes.brand}>Watch my reports:</h1>
               </div>
             </GridItem>
             <GridItem md={12} className={classes.textCenter}>

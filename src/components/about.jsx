@@ -21,13 +21,9 @@ class About extends React.Component {
           <GridContainer>
             <GridItem>
               <div className={classes.container}>
-                <h1>About Shai</h1>
-                <h2 className={classes.subtitle}>
-                  Reporter, Stand for Truth, GMA News and Public Affairs
-                </h2>
-                <h2 className={classes.subtitle}>
-                  Freelance Writer, Producer, Editor, Stylist
-                </h2>
+                <h1 className={classes.brand}>About Shai</h1>
+                <h2>Reporter, Stand for Truth, GMA News and Public Affairs</h2>
+                <h2>Freelance Writer, Producer, Editor, Stylist</h2>
               </div>
             </GridItem>
             <GridItem md={12} className={classes.textCenter}>

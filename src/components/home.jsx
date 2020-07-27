@@ -11,6 +11,7 @@ import Parallax from './views/parallax.jsx'
 import HeaderLinks from './views/headerLinks.jsx'
 import About from './about'
 import Journalism from './journalism'
+import Lifestyle from './lifestyle'
 
 class Home extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class Home extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require('../assets/img/landing-bg.jpg')}>
+        <Parallax image={require('../assets/img/shai1.jpg')}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
@@ -52,6 +53,7 @@ class Home extends React.Component {
         <div>
           <About />
           <Journalism />
+          <Lifestyle />
           <Footer />
         </div>
       </div>
