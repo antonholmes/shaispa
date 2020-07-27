@@ -10,6 +10,7 @@ const pageStyle = {
     ...title,
     display: 'inline-block',
     position: 'relative',
+    fontWeight: '300',
     marginTop: '30px',
     minHeight: '32px',
     color: '#FFFFFF',
@@ -17,6 +18,7 @@ const pageStyle = {
   },
   subtitle: {
     fontSize: '1.313rem',
+    fontWeight: '300',
     maxWidth: '500px',
     margin: '10px 0 0'
   },
@@ -33,6 +35,8 @@ const pageStyle = {
   },
   brand: {
     color: '#FFFFFF',
+    fontSize: '2.8rem',
+    fontWeight: '300',
     textAlign: 'left'
   },
   navbar: {

@@ -6,8 +6,10 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import GridContainer from './views/gridContainer.jsx'
 import GridItem from './views/gridItem.jsx'
 import pageStyle from './views/styling/pageStyle'
+import imagesStyle from './views/styling/imagesStyle'
 import Button from './views/button.jsx'
 import image from '../assets/img/wedding.jpg'
+import image2 from '../assets/img/wedding2.jpg'
 // import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
 
 class Lifestyle extends React.Component {
@@ -23,6 +25,11 @@ class Lifestyle extends React.Component {
             <GridItem>
               <div className={classes.container}>
                 <h1 className={classes.brand}>Wedding</h1>
+              </div>
+            </GridItem>
+            <GridItem>
+              <div>
+                <img src={image2} style={imagesStyle.imgGallery} />
               </div>
             </GridItem>
             <GridItem md={12} className={classes.textCenter}>

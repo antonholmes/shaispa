@@ -19,7 +19,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header
-          brand="Shai Lagarde"
+          brand="SHAI LAGARDE"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
