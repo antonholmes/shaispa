@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import withStyles from '@material-ui/core/styles/withStyles'
 import Grid from '@material-ui/core/Grid'
 
@@ -23,3 +24,12 @@ function GridItem({...props}) {
 }
 
 export default withStyles(style)(GridItem)
+
+GridItem.defaultProps = {
+  className: ''
+}
+
+GridItem.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string
+}

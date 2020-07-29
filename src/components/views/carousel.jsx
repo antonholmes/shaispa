@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-slick'
+import Slider from 'react-slick'
 import withStyles from '@material-ui/core/styles/withStyles'
 import GridContainer from './gridContainer.jsx'
 import GridItem from './gridItem.jsx'
@@ -27,7 +27,7 @@ class SectionCarousel extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
               <PhotoCard carousel>
-                <Carousel {...settings}>
+                <Slider {...settings}>
                   <div>
                     <img
                       src={image1}
@@ -67,7 +67,7 @@ class SectionCarousel extends React.Component {
                       </h4>
                     </div>
                   </div>
-                </Carousel>
+                </Slider>
               </PhotoCard>
             </GridItem>
           </GridContainer>
