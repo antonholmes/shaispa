@@ -1,17 +1,18 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
-import Card from '@material-ui/core/Card'
-import CardMedia from '@material-ui/core/CardMedia'
 // import List from '@material-ui/core/List'
 // import ListItem from '@material-ui/core/ListItem'
+import Grid from '@material-ui/core/Grid'
 import GridContainer from './views/gridContainer.jsx'
 import GridItem from './views/gridItem.jsx'
-import cardStyle from './views/styling/cardStyle'
+// import Parallax from './views/parallax.jsx'
+import MediaCard from './views/mediaCard.jsx'
+import FreelanceCard from './views/freelanceCard.jsx'
+import GMANewsCard from './views/gmanewsCard.jsx'
 import pageStyle from './views/styling/pageStyle'
 import Button from './views/button.jsx'
 import image from '../assets/img/bg-antonshai.jpg'
-import image2 from '../assets/img/wedding2.jpg'
 
 class About extends React.Component {
   render() {
@@ -26,32 +27,35 @@ class About extends React.Component {
             <GridItem>
               <div className={classes.container}>
                 <h1 className={classes.brand}>About Shai</h1>
-                <h2 className={classes.subtitle}>
-                  Reporter, Stand for Truth, GMA News and Public Affairs
-                </h2>
-                <h2 className={classes.subtitle}>
-                  Freelance Writer, Producer, Editor, Stylist
-                </h2>
               </div>
             </GridItem>
             <GridItem>
               <div className={classes.container}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image={image2}
-                    title="Wedding"
-                  />
-                </Card>
+                <Grid
+                  container
+                  direction="row"
+                  justify="space-evenly"
+                  align-items="center"
+                >
+                  <MediaCard />
+                  <FreelanceCard />
+                  <GMANewsCard />
+                </Grid>
               </div>
             </GridItem>
-            <GridItem md={12} className={classes.textCenter}>
+            {/* <GridItem >
+              <div className={classes.container} direction='row' justify='space-evenly' alignItems='center'>
+                <MediaCard />
+                <FreelanceCard />
+              </div>
+            </GridItem> */}
+            {/* <GridItem md={12} className={classes.textCenter}>
               <Link to="/about" className={classes.link}>
                 <Button color="primary" size="lg" simple>
                   About Me
                 </Button>
               </Link>
-            </GridItem>
+            </GridItem> */}
           </GridContainer>
         </div>
       </div>

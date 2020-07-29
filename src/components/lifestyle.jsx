@@ -1,15 +1,16 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import withStyles from '@material-ui/core/styles/withStyles'
 // import List from '@material-ui/core/List'
 // import ListItem from '@material-ui/core/ListItem'
 import GridContainer from './views/gridContainer.jsx'
 import GridItem from './views/gridItem.jsx'
 import pageStyle from './views/styling/pageStyle'
-import imagesStyle from './views/styling/imagesStyle'
-import Button from './views/button.jsx'
+// import imagesStyle from './views/styling/imagesStyle'
+// import Button from './views/button.jsx'
 import image from '../assets/img/wedding.jpg'
-import image2 from '../assets/img/wedding2.jpg'
+// import image2 from '../assets/img/wedding2.jpg'
+import WeddingGridList from './views/gridList'
 // import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
 
 class Lifestyle extends React.Component {
@@ -24,12 +25,13 @@ class Lifestyle extends React.Component {
           <GridContainer>
             <GridItem>
               <div className={classes.container}>
-                <h1 className={classes.brand}>Wedding</h1>
+                <h1 className={classes.brand}>Lifestyle</h1>
               </div>
             </GridItem>
             <GridItem>
               <div>
-                <img src={image2} style={imagesStyle.imgGallery} />
+                <WeddingGridList />
+                {/* <img src={image2} style={imagesStyle.imgGallery} /> */}
               </div>
             </GridItem>
             <GridItem md={12} className={classes.textCenter}>
