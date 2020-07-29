@@ -1,14 +1,16 @@
-// import {container, title} from './material-kit-react'
+import {container, title} from './anton-react.jsx'
 import {pink, blue} from '@material-ui/core/colors'
 
 const gridListStyle = {
-  //   container: {
-  //     zIndex: '12',
-  //     color: '#FFFFFF',
-  //     ...container
-  //   },
+  container: {
+    height: '50%',
+    zIndex: '12',
+    color: '#FFFFFF'
+    // ...container
+  },
   title: {
-    color: pink
+    color: '#FFFFFF',
+    ...title
   },
   titleBar: {
     background:

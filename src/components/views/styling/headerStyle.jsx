@@ -10,7 +10,7 @@ import {
   transition,
   boxShadow,
   drawerWidth
-} from './material-kit-react'
+} from './anton-react'
 
 const headerStyle = {
   appBar: {

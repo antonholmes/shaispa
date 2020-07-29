@@ -3,17 +3,17 @@ import React from 'react'
 import withStyles from '@material-ui/core/styles/withStyles'
 // import List from '@material-ui/core/List'
 // import ListItem from '@material-ui/core/ListItem'
+import Grid from '@material-ui/core/Grid'
 import GridContainer from './views/gridContainer.jsx'
 import GridItem from './views/gridItem.jsx'
+import CovidCard from './views/covidCard.jsx'
+import GMANewsCard from './views/gmanewsCard.jsx'
+import KoreaCard from './views/koreaCard.jsx'
 import pageStyle from './views/styling/pageStyle'
-// import imagesStyle from './views/styling/imagesStyle'
 // import Button from './views/button.jsx'
-import image from '../assets/img/wedding.jpg'
-import image2 from '../assets/img/wedding2.jpg'
-import WeddingGridList from './views/gridList'
-// import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
+import image from '../assets/img/shai2.jpg'
 
-class Lifestyle extends React.Component {
+class MentalHealth extends React.Component {
   render() {
     const {classes} = this.props
     return (
@@ -25,21 +25,21 @@ class Lifestyle extends React.Component {
           <GridContainer>
             <GridItem>
               <div className={classes.container}>
-                <h1 className={classes.brand}>Wedding</h1>
+                <h1 className={classes.brand}>Mental Health</h1>
               </div>
             </GridItem>
             <GridItem>
-              <div>
-                <WeddingGridList />
-                {/* <img src={image2} style={imagesStyle.imgGallery} /> */}
+              <div className={classes.container}>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/FAFUl8uzrVc"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                />
               </div>
             </GridItem>
-            {/* <GridItem md={12} className={classes.textCenter}> */}
-            {/* <Link to={"https://www.youtube.com/watch?v=FAFUl8uzrVc&list=PLG5yvmTxvDF1b5C57aEIlu4lmQiKsIAOD"} className={classes.link}> */}
-            {/* <AutoRotatingCarousel /> */}
-            {/* </Link> */}
-            {/* </GridItem> */}
-            {/* <Album /> */}
           </GridContainer>
         </div>
       </div>
@@ -47,4 +47,4 @@ class Lifestyle extends React.Component {
   }
 }
 
-export default withStyles(pageStyle)(Lifestyle)
+export default withStyles(pageStyle)(MentalHealth)

@@ -1,4 +1,4 @@
-import {title} from './material-kit-react.jsx'
+import {title} from './anton-react.jsx'
 
 const cardStyle = {
   root: {

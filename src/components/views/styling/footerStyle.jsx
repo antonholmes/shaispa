@@ -1,4 +1,4 @@
-import {container, primaryColor} from './material-kit-react'
+import {container, primaryColor} from './anton-react'
 
 import tooltip from './tooltipsStyle.jsx'
 

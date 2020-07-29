@@ -1,4 +1,4 @@
-import {defaultFont} from './material-kit-react.jsx'
+import {defaultFont} from './anton-react.jsx'
 
 import tooltip from './tooltipsStyle.jsx'
 

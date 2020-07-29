@@ -1,4 +1,4 @@
-import {container} from './material-kit-react.jsx'
+import {container} from './anton-react.jsx'
 
 const componentsStyle = {
   container,

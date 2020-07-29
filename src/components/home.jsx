@@ -12,6 +12,8 @@ import HeaderLinks from './views/headerLinks.jsx'
 import About from './about'
 import Journalism from './journalism'
 import Lifestyle from './lifestyle'
+import MentalHealth from './mentalhealth'
+import SectionCarousel from './views/carousel.jsx'
 
 class Home extends React.Component {
   render() {
@@ -54,6 +56,8 @@ class Home extends React.Component {
           <About />
           <Journalism />
           <Lifestyle />
+          <MentalHealth />
+          <SectionCarousel />
           <Footer />
         </div>
       </div>
